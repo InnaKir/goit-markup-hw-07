@@ -1,0 +1,11 @@
+body {
+    background-color: var(--text-color-theme-dark);
+    font-family: var(--first-font);
+    font-size: 14px;
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
+}
+
+.accent {
+    color: var(--accent-color);
+}

@@ -1,0 +1,53 @@
+.text-main-about {
+
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.about-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.about-menu-item {
+    width: 270px;
+}
+
+.about-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 120px;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.about-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.title-about {
+    line-height: 1.14;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.text-about {
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+    width: 270px;
+}

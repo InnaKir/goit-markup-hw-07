@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <!--styles-->
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
  
   <body>
@@ -244,7 +245,17 @@
               </li>
             </ul>
         </div>
-       
+       <div class="footer-subscribe">
+          <p class="footer-titel">Підпишіться на розсилку</p>
+          <form class="footer-modal-form">
+<input type="email" class="footer-subscribe-input" required placeholder="E-mail" name="user_email">
+<button type="submit" class="footer-subscribe-submit">Підписатися
+  <svg class="footer-subscribe-icon">
+    <use href="./img/sprite.svg#icon-send"></use>
+  </svg>
+</button>
+          </form>
+        </div>
     </div>
 
     </footer>

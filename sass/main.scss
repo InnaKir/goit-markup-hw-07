@@ -1,0 +1,20 @@
+@import "./utils/variables";
+
+@import "./base/common";
+@import './base/body';
+@import './base/container';
+@import './base/section.scss';
+
+@import './layout/header';
+@import './layout/main-section.scss';
+@import './layout/advantages';
+@import './layout/working';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/modal-form';
+
+@import './layout/portfolio';

@@ -1,0 +1,140 @@
+.footer {
+    background-color: #2f303a;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .social-list {
+            padding-bottom: 0;
+        }
+    
+    .container {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+        }
+}
+
+.logo-footer {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: var(--text-color-theme-dark);
+
+    display: block;
+    margin-bottom: 20px;
+}
+
+.address :not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-link {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+
+    color: var(--text-color-theme-dark);
+}
+
+.contact-link-footer {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--transition-dur-func);
+
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+
+
+.footer-titel {
+    color: var(--text-color-theme-dark);
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.footer-social-icon {
+    fill: var(--text-color-theme-dark);
+}
+
+.footer-social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--accent-color);
+
+        &.social-list-icon  {
+            fill: var(--text-color-theme-dark);
+        }
+}
+
+// .social-list-link:hover .social-list-icon,
+// .social-list-link:focus .social-list-icon {
+//     fill: var(--text-color-theme-dark);
+// }
+
+
+
+.footer-modal-form {
+    display: flex;
+}
+
+.footer-subscribe-input {
+    box-sizing: border-box;
+
+    margin-right: 12px;
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+    background-color: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--text-color-theme-dark);
+
+}
+
+.footer-subscribe-submit {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: auto;
+    padding: 10px 32px 10px 32px;
+    border: none;
+    border-radius: 4px;
+
+    color: var(--text-color-theme-dark);
+    background-color: var(--accent-color);
+}
+
+.modal-form-submit:hover,
+.modal-form-submit:focus {
+    background-color: var(--accent-color);
+}
+
+.footer-subscribe-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    fill: var(--text-color-theme-dark)
+}
