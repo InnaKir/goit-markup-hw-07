@@ -1,4 +1,4 @@
-.text-main-about {
+.main-about__text {
 
     position: absolute;
     width: 1px;
@@ -18,11 +18,11 @@
     gap: 30px;
 }
 
-.about-menu-item {
+.about-menu__item {
     width: 270px;
 }
 
-.about-link {
+.about-menu__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,19 +33,19 @@
     border-radius: 4px;
 }
 
-.about-icon {
+.about-menu__icon {
     width: 70px;
     height: 70px;
 }
 
-.title-about {
+.about-menu__title {
     line-height: 1.14;
     font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.text-about {
+.about-menu__text {
     font-weight: 400;
     line-height: 1.71;
     color: var(--secondary-text-color);

@@ -99,38 +99,44 @@
 .modal-form-check {
     position: absolute;
     appearance: none;
-
-    &:checked+.modal-form-own-checkbox {
-            border-color: var(--accent-color);
-            background-color: var(--accent-color);
-        }
-
-    &:checked+.modal-form-own-checkbox .modal-form-own-checkbox-icon {
-            display: block;
-        }
-
-         &:hover+.modal-form-own-checkbox,
-         &:focus+.modal-form-own-checkbox {
-             box-shadow: 0 0 0 2px var(--accent-color);
-         }
 }
+
+
+
+
 
 .modal-form-own-checkbox {
     width: 16px;
     height: 15px;
-    /* padding: 4px 3px 2px 3px; */
+
     fill: var(--text-color-theme-dark);
 
     border: 2px solid var(--main-text-color);
     border-radius: 2px;
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  
     cursor: pointer;
     margin-right: 10px;
     transition: border-color var(--transition-dur-func), background-color var(--transition-dur-func);
+
+    .modal-form-check:checked+& {
+            border-color: var(--accent-color);
+            background-color: var(--accent-color);
+        }
+
+
+.modal-form-check:hover+&,
+.modal-form-check:focus+& {
+    box-shadow: 0 0 0 2px var(--accent-color);
+}
 }
 
 .modal-form-own-checkbox-icon {
     display: none;
+
+
+.modal-form-check:checked+.modal-form-own-checkbox &{
+        display: block;
+    }
 }
 
 .modal-form-link-agreement {

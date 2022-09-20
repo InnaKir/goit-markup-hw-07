@@ -57,20 +57,17 @@
     &:hover,
         &:focus {
             background-color: var(--accent-color);
-
-             .social-list-icon {
-                    fill: var(--text-color-theme-dark);
-                }
         }
 }
-
-
-
-
 
 .social-list-icon {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
     transition: fill var(--transition-dur-func);
+
+    .social-list-link:hover &,
+        .social-list-link:focus &{
+            fill: var(--text-color-theme-dark);
+        }
 }
