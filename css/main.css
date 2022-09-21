@@ -268,17 +268,17 @@ body {
   width: 270px;
 }
 
-.doing {
+.work {
   padding-top: 0;
 }
 
-.section-title {
+.section__title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 
-.doing-menu {
+.work-menu {
   display: flex;
   gap: 30px;
   margin-top: 50px;
@@ -288,26 +288,26 @@ body {
   background: #F5F4FA;
 }
 
-.section-title {
+.section__title {
   margin-bottom: 50px;
 }
 
-.team-item {
+.team__item {
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-img {
+.team__img {
   padding-bottom: 30px;
 }
 
-.photo-team {
+.team-photo {
   display: flex;
   gap: 30px;
 }
 
-.name {
+.team-photo__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -315,7 +315,7 @@ body {
   margin-bottom: 10px;
 }
 
-.profession {
+.team-photo__profession {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
