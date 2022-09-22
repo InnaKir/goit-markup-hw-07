@@ -1,23 +1,19 @@
 @import "./utils/variables";
 
-
 @import "./base/common";
-@import './base/body';
-@import './base/container';
-@import './base/section.scss';
+@import './base/reset';
 
-
+@import './components/container';
+@import './components/section';
 @import './components/header';
+@import './components/footer';
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/modal-form';
 
 @import './layout/main-section.scss';
 @import './layout/advantages';
 @import './layout/working';
 @import './layout/team';
 @import './layout/clients';
-@import './layout/footer';
-
-@import './components/backdrop';
-@import './components/modal-window';
-@import './components/modal-form';
-
 @import './layout/portfolio';
